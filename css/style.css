@@ -9,7 +9,7 @@ body{
     background: rgba(33, 36, 31, 0.541);
 }
 span{
-    color: #4cf0b9;
+    color: #f55dc7bb;
     font-weight: bolder;
     font-family: italic;
 }
@@ -125,6 +125,11 @@ hr{
         }
 }
 @media screen and (min-width:768px){
+    .sobre-nosotros{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .imgLogo{
         width: 5rem;
     }
