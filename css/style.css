@@ -96,13 +96,13 @@ hr{
     .banner p{
         font-size: 1.6rem;
     }
-    .btn-primary{
-        font-size: 1.4rem;
-    }
     .datos-user{ 
         display: flex;
         justify-content:space-around;
          
+    }
+    .btn-primary{
+        font-size: 1.4rem;
     }
 }
 @media screen and (min-width:767px){
