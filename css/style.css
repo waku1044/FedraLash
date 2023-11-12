@@ -41,8 +41,8 @@ span{
 }
 .relative{
     position: relative;
-    top: 90%;
-    left: 45%;
+    top: 85%;
+    left: 40%;
 }
 .btn-primary{
     background: #e49827;
@@ -119,6 +119,9 @@ hr{
     }
 }
 @media screen and (min-width:767px){
+    .relative{
+        left: 30%;
+    }
     .banner{
         height: calc(100vh - 50px);
     }
@@ -138,6 +141,9 @@ hr{
         }
 }
 @media screen and (min-width:768px){
+    .relative{
+        left: 48%;
+    }
     .sobre-nosotros{
         display: flex;
         justify-content: center;
