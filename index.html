@@ -64,13 +64,13 @@
       </nav>
     </header>
 
-    <div class="banner">
+    <div class="banner ">
       <!-- <h2 class="text-white">Fedra</h2>
         <p class="text-white">Lash Extension</p> -->
       <a
         href="https://wa.me/3489499024?text=¡Estoy+interesada!"
         target="_blank"
-        class="btn btn-primary mb-1 relative border-0 "
+        class="btn btn-primary border-0 contactanos"
         ><h5>Contactanos</h5></a
       >
     </div>
@@ -82,35 +82,66 @@
     ></a>
 
     <main class="container-fluid">
-
       <h2 class="text-center mt-5">Algunos de mis Trabajos</h2>
-      <div id="carouselExampleInterval" class="carousel slide  mx-auto my-5" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active " data-bs-interval="2000">
-            <img src="./assets/img/carrusel1.jpeg" class="d-bolck imgCarrusel " alt="fotoCarrusel1">
+      <div class="w-md-50 mx-auto">
+        <div
+          id="carouselExampleInterval"
+          class="carousel slide my-5"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2000">
+              <img
+                src="./assets/img/carrusel1.jpeg"
+                class="d-bolck imgCarrusel"
+                alt="fotoCarrusel1"
+              />
+            </div>
+            <div class="carousel-item imgCarrusel" data-bs-interval="1000">
+              <img
+                src="./assets/img/carrusel2.jpeg"
+                class="d-block imgCarrusel"
+                alt="fotoCarrusel2"
+              />
+            </div>
+            <div class="carousel-item imgCarrusel">
+              <img
+                src="./assets/img/carrusel3.jpeg"
+                class="d-block imgCarrusel"
+                alt="fotoCarrusel3"
+              />
+            </div>
+            <div class="carousel-item imgCarrusel">
+              <img
+                src="./assets/img/carrusel4.jpeg"
+                class="d-block imgCarrusel"
+                alt="fotoCarrusel4"
+              />
+            </div>
           </div>
-          <div class="carousel-item imgCarrusel" data-bs-interval="1000">
-            <img src="./assets/img/carrusel2.jpeg" class=" d-block imgCarrusel " alt="fotoCarrusel2">
-          </div>
-          <div class="carousel-item imgCarrusel">
-            <img src="./assets/img/carrusel3.jpeg" class="d-block imgCarrusel" alt="fotoCarrusel3">
-          </div>
-          <div class="carousel-item imgCarrusel">
-            <img src="./assets/img/carrusel4.jpeg" class="d-block imgCarrusel" alt="fotoCarrusel4">
-          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
       
-      <div class="aviso d-flex justify-content-center py-3 ">
-        <img src="./assets/img/avisoSeña.png" class="w-75" alt="Aviso">
+      <div class="aviso d-flex justify-content-center  py-3">
+        <img src="./assets/img/avisoSeña.png" class="img-fluid " alt="Aviso" />
       </div>
 
       <a name="nosotros"></a>
@@ -238,13 +269,21 @@
         <a href="https://www.facebook.com/fedra.chrem" target="_blank"
           ><i class="fa-brands fa-square-facebook"></i
         ></a>
-        <a href="https://www.instagram.com/fedra_chrem/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.instagram.com/fedra_chrem/"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
       </div>
     </section>
 
     <div class="footer bg-dark d-flex justify-content-center py-3">
       <p class="fs-6">
-        &copy 2022 | Sitio web creado por <span>Destino Web</span>
+        &copy 2022 | Sitio web creado por
+        <a
+          href="https://www.destinoweb.com.ar"
+          target="_blank"
+          class="link-underline link-underline-opacity-0"
+          ><span>Destino Web</span></a
+        >
       </p>
     </div>
 
